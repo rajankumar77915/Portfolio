@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Intro from './componants/Intro'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <div className='flex min-h-screen flex-col bg-[#121212]'>
+        <div className='container mt-24 mx-auto px-12 py-4'>
+        <Intro/>
+        </div>
+      </div>
     </>
   )
 }
