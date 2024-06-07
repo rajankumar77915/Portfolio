@@ -1,4 +1,5 @@
 import Intro from './componants/Intro'
+import About from './componants/Nav/About'
 import Navigation from './componants/Navigation'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
           <Navigation/>
         <div className='container mt-24 mx-auto px-12 py-4'>
         <Intro/>
+        <About/>
         </div>
       </div>
     </>
