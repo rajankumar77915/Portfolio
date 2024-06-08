@@ -1,6 +1,7 @@
 import Intro from './componants/Intro'
-import About from './componants/Nav/About'
+import About from './componants/About'
 import Navigation from './componants/Navigation'
+import Project from './componants/Project'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div className='container mt-24 mx-auto px-12 py-4'>
         <Intro/>
         <About/>
+        <Project/>
         </div>
       </div>
     </>
